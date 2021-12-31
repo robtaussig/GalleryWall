@@ -1,0 +1,12 @@
+.app {
+  margin: 25px;
+
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  & > *:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
